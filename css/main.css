@@ -1,0 +1,46 @@
+:root {
+    --main-1: #00444f;
+    --main-2: #c7a62c;
+    --main-3: #3e8a9a; 
+    --main-4: #b44546;
+}
+
+@font-face {
+    font-family: Fallback;
+    src: url(/css/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: 'Montserrat', Fallback, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: unset;
+}
+
+body {
+    background: var(--main-1);
+}
+
+#navBar {
+    display: flex;
+    background: var(--main-3);
+    padding: 12px;
+    margin: -8px;
+    justify-content: flex-end;
+}
+
+.navItem {
+    padding: 5px 10px;
+    margin-left: 40px;
+    font-weight: 800;
+    transition: .3s;
+}
+
+.navItem:hover {
+    background: white;
+    color: black;
+}
