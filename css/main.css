@@ -27,6 +27,7 @@ body {
 
 #navBar {
     display: flex;
+    align-items: center;
     background: var(--main-3);
     padding: 12px;
     margin: -8px;
@@ -69,4 +70,10 @@ body {
 
 .formLink:hover {
     color: var(--main-2)
+}
+
+.navTitle {
+    font-size: 28px;
+    font-weight: 900;
+    margin-right: 50px
 }
