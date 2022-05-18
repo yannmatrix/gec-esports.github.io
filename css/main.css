@@ -1,7 +1,7 @@
 :root {
     --main-1: #181818;
     --main-2: #c7a62c;
-    --main-3: #ffbf00; 
+    --main-3: #ffbf00;
     --main-4: #b44546;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 #section {
-    background: #00000075;
+    background: #ffbf0075;
     border-radius: 4px;
     margin: 8px;
     padding: 8px;
