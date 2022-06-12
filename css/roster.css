@@ -1,0 +1,71 @@
+#playerItem {
+  background: rgba(255, 255, 255, 0.22);
+  color: black;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.playerImg {
+  width: 80px;
+}
+
+.playerInfo {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+}
+
+.playerName {
+  display: flex;
+  align-items: center;
+  margin-top: -2px;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.playerImg {
+  border-radius: 8px;
+}
+
+.playerBio {
+  margin: 8px;
+  line-height: 2;
+}
+
+.playerContainer {
+  margin: 8px;
+}
+
+.playerGames {
+  display: flex;
+  align-items: center;
+  color: #ffffff85;
+  font-style: italic;
+}
+
+.leaderIcon {
+  color: #ffd800;
+  margin-right: 5px;
+}
+
+.socialImg {
+  transition: .5s;
+}
+
+.socialImg:hover {
+  transform: scale(.9);
+}
+
+@keyframes decode {
+  0%, 200% {background-position: 0 0;}
+  99.999999999999999% {background-position: -130% 0;}
+}
+
+.decode {
+  background-image: linear-gradient(to right, #fff, #00ccff, #00ddff, #57ffe2, #ffffff);
+  animation: decode 2s linear infinite;
+  background-size: 400% 100%;
+  color: transparent !important;
+  -webkit-background-clip: text
+}
